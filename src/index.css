@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Geist:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d3d3d3; /* Light color */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5; /* Lighter background */
+}
