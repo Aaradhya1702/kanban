@@ -1,4 +1,5 @@
 import { IconButton, Avatar } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Menu as MenuIcon } from "@mui/icons-material";
 import SearchIcon from "@mui/icons-material/Search";
 
@@ -34,7 +35,14 @@ export default function Header({ onMenuClick }) {
         <IconButton>
           <img alt="notification" src="/notification.png" />
         </IconButton>
-        <Avatar src="/profile.jpg" />
+        <div className="flex items-center gap-2 ml-4">
+          <div className="hidden md:flex flex-col items-start">
+            <h3>Palak Jain</h3>
+            <p className="text-[#787486]">Rajasthan, India</p>
+          </div>
+          <Avatar src="/palak.png" />
+          <ExpandMoreIcon />
+        </div>
       </div>
     </header>
   );
