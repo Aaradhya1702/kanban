@@ -56,7 +56,7 @@ This project is a **Kanban Task Management App** built using **React** and **Vit
 ```markdown
 ## Screenshot
 
-![Kanban App Screenshot](/kanban.png)
+![Kanban App Screenshot](https://github.com/Aaradhya1702/kanban/blob/main/public/kanban.png)
 ```
 
 ## Expanding the ESLint Configuration
